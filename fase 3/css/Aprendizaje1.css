@@ -1,0 +1,24 @@
+.Encabezado{
+    background-color: rgb(56, 173, 154);
+    padding: 30px;
+}
+.Navegacion{
+    background-color: rgb(17, 211, 137);
+    padding: 30px;
+}
+.Contenedor{
+    background-color: rgb(167, 212, 187);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 2/5;
+}
+.Principal{
+    background-color: lightseagreen;
+    padding: 30px;
+    grid-column: 1/2;
+}
+.Pie{
+    background-color: rgb(27, 139, 111);
+    padding: 30px;
+}
